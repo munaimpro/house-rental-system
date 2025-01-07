@@ -40,9 +40,8 @@ class Session{
 		}
 	}
 	
-	public function destroy(){
+	public static function destroy(){
 		session_destroy();
 		echo"<script>window.location='signin.php'</script>";
 	}
 }
-?>
